@@ -14,7 +14,7 @@ public class etoile {
 			for (j = 0; j < n - i - 1; j++)
 				System.out.print(" ");
 			for (j = 0; j <= i * 2; j++)
-				System.out.print("*");
+				System.out.print("* ");//il manquait un espace sinon les étoiles seront colées au dessin 
 		
 			System.out.println(); 
 		}
